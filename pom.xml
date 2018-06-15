@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://localhost:9001/repository/JenkinsNMRelease/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://localhost:9001/repository/JenkinsNMRepo/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
