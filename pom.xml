@@ -13,11 +13,6 @@
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:9001/repository/JenkinsNMRelease/</url>
         </repository>
-        <snapshotRepository>
-            <id>JenkinsNMRepo</id>
-            <name>Internal Releases</name>
-            <url>http://localhost:9001/repository/JenkinsNMRepo/</url>
-        </snapshotRepository>
     </distributionManagement>
   <dependencies>
     <dependency>
