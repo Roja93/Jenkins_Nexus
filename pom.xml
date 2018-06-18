@@ -9,8 +9,8 @@
   <url>http://maven.apache.org</url>
    <distributionManagement>
         <repository>
-            <id>JenkinsNMRepo</id>
-            <name>Internal Releases</name>
+            <id>deployment</id>
+            <name>JenkinsNMRepo</name>
             <url>http://localhost:9001/repository/JenkinsNMRepo/</url>
         </repository>
     </distributionManagement>
