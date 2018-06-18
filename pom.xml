@@ -10,8 +10,8 @@
    <distributionManagement>
         <repository>
             <id>deployment</id>
-            <name>JenkinsNMRepo</name>
-            <url>http://localhost:9001/repository/JenkinsNMRepo/</url>
+            <name>Jenkins_Snapshot</name>
+            <url>http://localhost:8081/repository/Jenkins_Snapshot/</url>
         </repository>
     </distributionManagement>
   <dependencies>
